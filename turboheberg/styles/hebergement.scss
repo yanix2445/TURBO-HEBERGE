@@ -1,0 +1,15 @@
+.container-hebergement{
+    display: flex;
+    align-items: baseline;
+    margin: 100px 0;
+    padding: 0 20px;
+
+}.col{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
