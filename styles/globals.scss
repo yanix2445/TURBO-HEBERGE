@@ -7,17 +7,20 @@ html{
 }
 
 body {
-  padding: 0.5rem;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  line-height: 1.6;
-  font-size: 1.6rem;
-  color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  color: white;
   background: #193661;
   
 }
-
+@media screen and (max-width: 750px){
+  body{
+    font-size: 1.4rem;
+    max-width: 100%;
+  }
+}
 
 h1,
 .h1 {
@@ -40,11 +43,6 @@ a {
   text-decoration: none;
 }
 
-img{
-  
-  height: auto;
-  
-}
 
 .container {
   display: flex;

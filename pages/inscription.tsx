@@ -24,9 +24,9 @@ const inscription = () => {
                 </div>
             </header>
 
-            <form>
+            <form className='form__inscription'>
 
-                <div className="box">
+                <div className="box-inscription">
                     <div className="form">
                         <h2>
                             SIGN UP

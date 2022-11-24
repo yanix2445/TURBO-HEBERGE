@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import React from 'react';
+import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
-const hebergement__cloud = () => {
+const hebergemnt__mutualiser = () => {
     return (
         <>
             <Head>
@@ -30,12 +30,12 @@ const hebergement__cloud = () => {
                     <div className="col1">
                         <Link href="/hebergement">
                             <img
-                                src='/HEBERGEMENT-CLOUD.png' alt='imahe du logo'
-                                width={200}
+                                src='/hebergement-mutualise.png' alt='imahe du logo'
+                                width={300}
                                 height={200}
                             />
-                            <h3>L’HÉBERGEMENT CLOUD</h3>
-                            <p>Cddontrairement à l’hébergement mutualisé, l’hébergement dédié et l’hébergement VPS, l’hébergement Cloud ne repose pas sur un serveur mais sur une multitude de serveurs et le client paye pour ce qu’il utilise vraiment, ce qui permet une flexibilité accrue.
+                            <h3>L’HÉBERGEMENT MUTUALISE</h3>
+                            <p>L’hébergement mutualisé consiste à se partager à plusieurs un seul et même serveur.
 
                             </p>
                         </Link>
@@ -85,8 +85,9 @@ const hebergement__cloud = () => {
             <footer>
                 <Footer />
             </footer>
+
         </>
     );
 };
 
-export default hebergement__cloud;
+export default hebergemnt__mutualiser;

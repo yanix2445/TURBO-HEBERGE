@@ -1,6 +1,5 @@
 import '../styles/globals.scss'
 import '../styles/navbar.scss'
-import '../styles/logo.scss'
 import '../styles/hero__avatar.scss'
 import '../styles/footer.scss'
 import '../styles/connexion.scss'

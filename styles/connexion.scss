@@ -9,7 +9,7 @@ form {
     background-color: #193661;
     padding: 60px 60px 40px 60px;
     border-radius: 10px;
-    min-width: 1500px;
+
 }
 form h1 {
     color: #eb7371;
@@ -63,12 +63,10 @@ form button {
     cursor: pointer;
 }
 
-
-
-.box{
+.box {
     position: relative;
     width: 450px;
-    height: 500px;
+    height: 475px;
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
@@ -194,4 +192,17 @@ input[type="submit"]{
     border-radius: 4px;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .form {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #193661;
+        padding: 60px 60px 40px 60px;
+        border-radius: 10px;
+    }
+    
 }

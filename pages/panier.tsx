@@ -26,7 +26,7 @@ const panier = () => {
             <footer>
                 <Footer />
             </footer>
-          
+
 
         </>
     );

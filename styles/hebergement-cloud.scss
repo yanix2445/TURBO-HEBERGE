@@ -16,6 +16,25 @@
 max-width: 400px;
 }
 
+@media screen and (max-width: 750px) {
+    .hebergement__cloud {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1900px;
+        margin-block-start: 100px;
+    }
+    .col1 {
+        display: flex;
+        text-align: center;
+    }
+    .row p {
+        max-width: 400px;
+        margin-bottom: 100px;
+    }
+}
+
 #pricing-table {
     text-align: center; /* total computed width = 222 x 3 + 226 */
 }
@@ -170,7 +189,7 @@ max-width: 400px;
 
 #pricing-table .signup:active,
 #pricing-table .signup:focus {
-    background: #cf4602;
+    background: #193661;
     top: 2px;
     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
     -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
