@@ -192,7 +192,7 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .form {
         display: flex;
         flex-direction: column;
